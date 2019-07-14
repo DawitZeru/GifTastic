@@ -1,0 +1,19 @@
+html {
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+    background-color:rgb(65, 68, 68);
+    background-repeat: no-repeat;
+}
+body {
+    background-color: rgb(67, 75, 77) ;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.wrapper {
+    margin: 80px 20px 0px,
+}
+.container {
+    margin: auto 10px;
+}
