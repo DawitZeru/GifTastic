@@ -9,7 +9,7 @@ html {
 }
 body {
     background-color: rgb(67, 75, 77) ;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
     margin: 80px 20px 0px,
@@ -17,3 +17,61 @@ body {
 .container {
     margin: auto 10px;
 }
+.center-box{
+    display: inline-flex;
+    margin: 10px auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#jumpotron {
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.4);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0), 0 5px 5px 0 rgba(0,0,0,0.24),
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 3px 3px 0px rgba(0,0,0,5);
+    color: red;
+}
+.search {
+    box-shadow: yellow;
+}
+.mood {
+    margin: 0 3px;
+}
+.genBox {
+    width: auto;
+}
+.genBox p {
+    color: green;
+}
+#giphy {
+    margin: 20px 0 5 px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+#giphy img {
+max-width: 320px;
+}
+#giphy {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
